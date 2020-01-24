@@ -1,0 +1,708 @@
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media only screen and (min-width: 1200px) {
+    .mainChart {
+        margin-top: 20px;
+        margin-left: 100px;
+        margin-right: 100px;
+        background-color: #f0f0f0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .subChartsLayout {
+        content: "";
+        display: table;
+        padding-left: 0px;
+        margin-left: 100px;
+    }
+    .form {
+        margin-left: 150px;
+    }
+    .barChartForTotal {
+        background: #f5f5f5;
+        margin-right: 300px;
+        margin-left: 150px;
+        margin-top: 10px;
+        position: relative;
+        border-radius: 0px 5px 5px 0px;
+        width: 80%;
+    }
+    .textForPICurr {
+        margin-top: -23px;
+        position: absolute;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITar1 {
+        margin-bottom: -55px;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITar {
+        padding-bottom: 7px;
+        position: static;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .forCurrentTotal {
+        background-color: #0fa2eb;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .forTargetTotal {
+        background-color: #ffe28a;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .textForTotalDiff {
+        font-size: x-small;
+        margin-bottom: 2px;
+    }
+    .headingIdForTotalChart {
+        margin-top: 5px;
+        margin-left: 150px;
+        margin-bottom: 0px;
+        color: black;
+        display: inline-flex;
+        font-weight: normal;
+        letter-spacing: 1.5px;
+        font-size: x-large;
+    }
+    .headingIdForTotalChart1 {
+        margin-top: 5px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+        color: black;
+        display: inline-flex;
+        font-weight: normal;
+        font-family: unset;
+        letter-spacing: 1px;
+    }
+    .textForTotalChart {
+        margin-top: 15px;
+        margin-left: 150px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        display: inline-flex;
+        font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .subCharts {
+        float: left;
+        width: 60%;
+        margin-top: -20px;
+    }
+    .subCharts1 {
+        float: right;
+        margin-left: 400px;
+        position: absolute;
+        margin-top: -20px;
+    }
+    .headingIdForTitleQuantChart {
+        color: black;
+        position: relative;
+        font-size: large;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .headingIdForTitleVerbalChart {
+        color: black;
+        font-size: large;
+        position: relative;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .barChartForQuant {
+        background: #f5f5f5;
+        margin-right: 300px;
+        margin-top: 50px;
+        border-radius: 0px 5px 5px 0px;
+        width: 50%;
+    }
+    .barChartForVerbal {
+        background: #f5f5f5;
+        margin-top: 50px;
+        width: 800px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .forCurrentQuantVerbal {
+        background-color: #0fa2eb;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+        position: relative;
+    }
+    .forTargetQuantVerbal {
+        background-color: #ffe28a;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+        position: relative;
+    }
+    .textForDiffScore {
+        font-size: x-small;
+        padding-bottom: 100px;
+        position: absolute;
+    }
+    .textForQuantChart {
+        margin-top: 20px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        display: inline-flex;
+        font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPICurrQuant {
+        /* margin-top: 15px; */
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITarQuant {
+        /* margin-top: 15px; */
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITarQuant1 {
+        margin-top: 60px;
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (max-width: 1200px) {
+    .mainChart {
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        background-color: #f0f0f0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .subChartsLayout {
+        content: "";
+        display: table;
+        padding-left: 0px;
+        margin-left: 50px;
+    }
+    .form {
+        margin-left: 150px;
+    }
+    .barChartForTotal {
+        background: #f5f5f5;
+        margin-right: 300px;
+        margin-left: 150px;
+        margin-top: 10px;
+        position: relative;
+        border-radius: 0px 5px 5px 0px;
+        width: 80%;
+    }
+    .textForPICurr {
+        margin-top: -23px;
+        position: absolute;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITar1 {
+        margin-bottom: -55px;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITar {
+        padding-bottom: 7px;
+        position: static;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .forCurrentTotal {
+        background-color: #0fa2eb;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .forTargetTotal {
+        background-color: #ffe28a;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .textForTotalDiff {
+        font-size: x-small;
+        margin-bottom: 2px;
+    }
+    .headingIdForTotalChart {
+        margin-top: 5px;
+        margin-left: 150px;
+        margin-bottom: 0px;
+        color: black;
+        display: inline-flex;
+        font-weight: normal;
+        letter-spacing: 1.5px;
+        font-size: x-large;
+    }
+    .headingIdForTotalChart1 {
+        margin-top: 5px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+        color: black;
+        display: inline-flex;
+        font-weight: normal;
+        font-family: unset;
+        letter-spacing: 1px;
+    }
+    .textForTotalChart {
+        margin-top: 15px;
+        margin-left: 150px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        display: inline-flex;
+        font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .subCharts {
+        float: left;
+        width: 60%;
+        margin-top: -20px;
+    }
+    .subCharts1 {
+        float: right;
+        margin-left: 400px;
+        position: absolute;
+        margin-top: -20px;
+    }
+    .headingIdForTitleQuantChart {
+        color: black;
+        position: relative;
+        font-size: large;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .headingIdForTitleVerbalChart {
+        color: black;
+        font-size: large;
+        position: relative;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .barChartForQuant {
+        background: #f5f5f5;
+        margin-right: 300px;
+        margin-top: 50px;
+        border-radius: 0px 5px 5px 0px;
+        width: 50%;
+    }
+    .barChartForVerbal {
+        background: #f5f5f5;
+        margin-top: 50px;
+        width: 800px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .forCurrentQuantVerbal {
+        background-color: #0fa2eb;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+        position: relative;
+    }
+    .forTargetQuantVerbal {
+        background-color: #ffe28a;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+        position: relative;
+    }
+    .textForDiffScore {
+        font-size: x-small;
+        padding-bottom: 100px;
+        position: absolute;
+    }
+    .textForQuantChart {
+        margin-top: 20px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        display: inline-flex;
+        font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPICurrQuant {
+        /* margin-top: 15px; */
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITarQuant {
+        /* margin-top: 15px; */
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITarQuant1 {
+        margin-top: 60px;
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+/* Large devices (laptops/desktops, 768px and 992px) */
+
+@media only screen and (max-width: 992px) {
+    .mainChart {
+        margin-top: 20px;
+        margin-left: -30px;
+        margin-right: 10px;
+        background-color: #f0f0f0;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    .subChartsLayout {
+        content: "";
+        display: table;
+        padding-left: 0px;
+        margin-left: -30px;
+    }
+    .form {
+        margin-left: 150px;
+    }
+    .barChartForTotal {
+        background: #f5f5f5;
+        margin-right: 300px;
+        margin-left: 150px;
+        margin-top: 10px;
+        position: relative;
+        border-radius: 0px 5px 5px 0px;
+        width: 80%;
+    }
+    .textForPICurr {
+        margin-top: -23px;
+        position: absolute;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITar1 {
+        margin-bottom: -55px;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITar {
+        padding-bottom: 7px;
+        position: static;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .forCurrentTotal {
+        background-color: #0fa2eb;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .forTargetTotal {
+        background-color: #ffe28a;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .textForTotalDiff {
+        font-size: x-small;
+        margin-bottom: 2px;
+    }
+    .headingIdForTotalChart {
+        margin-top: 5px;
+        margin-left: 150px;
+        margin-bottom: 0px;
+        color: black;
+        display: inline-flex;
+        font-weight: normal;
+        letter-spacing: 1.5px;
+        font-size: x-large;
+    }
+    .headingIdForTotalChart1 {
+        margin-top: 5px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+        color: black;
+        display: inline-flex;
+        font-weight: normal;
+        font-family: unset;
+        letter-spacing: 1px;
+    }
+    .textForTotalChart {
+        margin-top: 15px;
+        margin-left: 150px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        display: inline-flex;
+        font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .subCharts {
+        float: left;
+        width: 60%;
+        margin-top: -20px;
+    }
+    .subCharts1 {
+        float: right;
+        margin-left: 400px;
+        position: absolute;
+        margin-top: -20px;
+    }
+    .headingIdForTitleQuantChart {
+        color: black;
+        position: relative;
+        font-size: large;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .headingIdForTitleVerbalChart {
+        color: black;
+        font-size: large;
+        position: relative;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .barChartForQuant {
+        background: #f5f5f5;
+        margin-right: 300px;
+        margin-top: 50px;
+        border-radius: 0px 5px 5px 0px;
+        width: 50%;
+    }
+    .barChartForVerbal {
+        background: #f5f5f5;
+        margin-top: 50px;
+        width: 800px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .forCurrentQuantVerbal {
+        background-color: #0fa2eb;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+        position: relative;
+    }
+    .forTargetQuantVerbal {
+        background-color: #ffe28a;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+        position: relative;
+    }
+    .textForDiffScore {
+        font-size: x-small;
+        padding-bottom: 100px;
+        position: absolute;
+    }
+    .textForQuantChart {
+        margin-top: 20px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        display: inline-flex;
+        font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPICurrQuant {
+        /* margin-top: 15px; */
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITarQuant {
+        /* margin-top: 15px; */
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITarQuant1 {
+        margin-top: 60px;
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+
+/* Large devices (laptops/desktops, max 768px) */
+
+@media only screen and (max-width: 768px) {
+    .mainChart {
+        margin-top: 20px;
+        margin-left: -50px;
+        margin-right: 10px;
+        background-color: #f0f0f0;
+        /* -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box; */
+        /* box-sizing: border-box; */
+        float: left;
+    }
+    .subChartsLayout {
+        content: "";
+        display: table;
+        padding-left: 0px;
+        margin-left: -50px;
+    }
+    .form {
+        margin-left: 150px;
+    }
+    .barChartForTotal {
+        background: #f5f5f5;
+        margin-right: 300px;
+        margin-left: 150px;
+        margin-top: 10px;
+        position: relative;
+        border-radius: 0px 5px 5px 0px;
+        width: 80%;
+    }
+    .textForPICurr {
+        margin-top: -23px;
+        position: absolute;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITar1 {
+        margin-bottom: -55px;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITar {
+        padding-bottom: 7px;
+        position: static;
+        color: black;
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .forCurrentTotal {
+        background-color: #0fa2eb;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .forTargetTotal {
+        background-color: #ffe28a;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .textForTotalDiff {
+        font-size: x-small;
+        margin-bottom: 2px;
+    }
+    .headingIdForTotalChart {
+        margin-top: 5px;
+        margin-left: 150px;
+        margin-bottom: 0px;
+        color: black;
+        display: inline-flex;
+        font-weight: normal;
+        letter-spacing: 1.5px;
+        font-size: x-large;
+    }
+    .headingIdForTotalChart1 {
+        margin-top: 5px;
+        margin-left: 150px;
+        margin-bottom: 60px;
+        color: black;
+        display: inline-flex;
+        font-weight: normal;
+        font-family: unset;
+        letter-spacing: 1px;
+    }
+    .textForTotalChart {
+        margin-top: 15px;
+        margin-left: 150px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        display: inline-flex;
+        font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .subCharts {
+        float: left;
+        width: 60%;
+        margin-top: -20px;
+    }
+    .subCharts1 {
+        float: right;
+        margin-left: 400px;
+        position: absolute;
+        margin-top: -20px;
+    }
+    .headingIdForTitleQuantChart {
+        color: black;
+        position: relative;
+        font-size: large;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .headingIdForTitleVerbalChart {
+        color: black;
+        font-size: large;
+        position: relative;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .barChartForQuant {
+        background: #f5f5f5;
+        margin-right: 300px;
+        margin-top: 50px;
+        border-radius: 0px 5px 5px 0px;
+        width: 50%;
+    }
+    .barChartForVerbal {
+        background: #f5f5f5;
+        margin-top: 50px;
+        width: 800px;
+        border-radius: 0px 5px 5px 0px;
+    }
+    .forCurrentQuantVerbal {
+        background-color: #0fa2eb;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+        position: relative;
+    }
+    .forTargetQuantVerbal {
+        background-color: #ffe28a;
+        height: 10px;
+        border-radius: 0px 5px 5px 0px;
+        position: relative;
+    }
+    .textForDiffScore {
+        font-size: x-small;
+        padding-bottom: 100px;
+        position: absolute;
+    }
+    .textForQuantChart {
+        margin-top: 20px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        display: inline-flex;
+        font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPICurrQuant {
+        /* margin-top: 15px; */
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITarQuant {
+        /* margin-top: 15px; */
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .textForPITarQuant1 {
+        margin-top: 60px;
+        position: absolute;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: small;
+        font-family: Calibri, 'Trebuchet MS', sans-serif;
+    }
+}

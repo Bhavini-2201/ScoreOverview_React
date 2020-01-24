@@ -1,38 +1,306 @@
-.App {
-  text-align: center;
-}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width: 1200px) {
+  .splitRow {
+    content: "";
+    display: table;
+    padding-left: 0px;
+    margin-top: -10px;
+    margin-left: 100px;
+  }
+  .column {
+    float: left;
+    margin-right: 50px;
+  }
+  .column1 {
+    float: right;
+    margin-left: 80px;
+  }
+  .headingId {
+    color: black;
+    width: 20px;
+    font-weight: normal;
+    font-size: x-large;
+    margin-bottom: -10px;
+  }
+  .lblId {
+    color: darkslategrey;
+  }
+  .quantCurrId {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 60px;
+    color: grey;
+    height: 20px;
+  }
+  .quantTarId {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px
+  }
+  .verbalCurrId {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 60px;
+    height: 20px
+  }
+  .verbalTarId {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px
+  }
+  .button {
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 260px;
+    margin-top: 20px;
+    font-size: medium;
+    border-radius: 30px;
+    font-family: Calibri, sans-serif;
+  }
+  .form {
+    margin-left: 150px;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/* Large devices (laptops/desktops, between 992px and 1200px) */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 1200px) {
+  .splitRow {
+    content: "";
+    display: table;
+    padding-left: 0px;
+    margin-top: -10px;
+    margin-left: 50px;
   }
-  to {
-    transform: rotate(360deg);
+  .column {
+    float: left;
+    margin-right: 50px;
+  }
+  .column1 {
+    float: right;
+    margin-left: 80px;
+  }
+  .headingId {
+    color: black;
+    width: 20px;
+    font-weight: normal;
+    font-size: x-large;
+    margin-bottom: -10px;
+  }
+  .lblId {
+    color: darkslategrey;
+  }
+  .quantCurrId {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 60px;
+    color: grey;
+    height: 20px;
+  }
+  .quantTarId {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px
+  }
+  .verbalCurrId {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 60px;
+    height: 20px
+  }
+  .verbalTarId {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px
+  }
+  .button {
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 260px;
+    margin-top: 20px;
+    font-size: medium;
+    border-radius: 30px;
+    font-family: Calibri, sans-serif;
+  }
+  .form {
+    margin-left: 150px;
+  }
+}
+
+/* Large devices (laptops/desktops, 768px and 992px) */
+
+@media only screen and (max-width: 992px) {
+  .splitRow {
+    content: "";
+    display: table;
+    padding-left: 0px;
+    margin-top: -10px;
+    margin-left: -30px;
+  }
+  .column {
+    float: left;
+    margin-right: 50px;
+  }
+  .column1 {
+    float: right;
+    margin-left: 80px;
+  }
+  .headingId {
+    color: black;
+    width: 20px;
+    font-weight: normal;
+    font-size: x-large;
+    margin-bottom: -10px;
+  }
+  .lblId {
+    color: darkslategrey;
+  }
+  .quantCurrId {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 60px;
+    color: grey;
+    height: 20px;
+  }
+  .quantTarId {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px
+  }
+  .verbalCurrId {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 60px;
+    height: 20px
+  }
+  .verbalTarId {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px
+  }
+  .button {
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 260px;
+    margin-top: 20px;
+    font-size: medium;
+    border-radius: 30px;
+    font-family: Calibri, sans-serif;
+  }
+  .form {
+    margin-left: 150px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .splitRow {
+    content: "";
+    display: table;
+    padding-left: 0px;
+    margin-top: -10px;
+    margin-left: -50px;
+  }
+  .column {
+    float: left;
+    margin-right: 50px;
+  }
+  .column1 {
+    float: left;
+    margin-left: 0px;
+  }
+  .headingId {
+    color: black;
+    width: 20px;
+    font-weight: normal;
+    font-size: x-large;
+    margin-bottom: -10px;
+  }
+  .lblId {
+    color: darkslategrey;
+  }
+  .quantCurrId {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 60px;
+    color: grey;
+    height: 20px;
+  }
+  .quantTarId {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px
+  }
+  .verbalCurrId {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    width: 60px;
+    height: 20px
+  }
+  .verbalTarId {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 60px;
+    height: 20px
+  }
+  .button {
+    background-color: dodgerblue;
+    outline: none;
+    border: none;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-size: medium;
+    border-radius: 30px;
+    font-family: Calibri, sans-serif;
+  }
+  .form {
+    margin-left: 150px;
   }
 }
